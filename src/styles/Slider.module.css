@@ -1,0 +1,27 @@
+.sliderContainer {
+	width: 100%;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider {
+	/* If we don't set the -webkit-appearance: none; then the styles wont apply to the thumb */
+	-webkit-appearance: none;
+	width: 90%;
+	height: 2px;
+	border-radius: 2px;
+	background: lightgrey;
+}
+
+/* To give the styling to the thumb of the range */
+.slider::-webkit-slider-thumb {
+	/* If we don't set the -webkit-appearance: none; then the styles wont apply */
+	-webkit-appearance: none;
+	cursor: pointer;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background: purple;
+}
