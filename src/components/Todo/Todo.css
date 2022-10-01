@@ -1,0 +1,62 @@
+.main-div {
+	background-color: darkslateblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+
+.child-div {
+	padding: 18px;
+}
+
+figcaption {
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 1.2px;
+}
+
+.add-items input {
+	border-radius: 6px;
+	width: 300px;
+	height: 24px;
+	margin: 18px 16px;
+	padding: 8px;
+}
+
+.add-items input:focus {
+	outline: none;
+}
+
+.add-btn {
+	cursor: pointer;
+	color: #fff;
+}
+
+.delete-btn {
+	position: absolute;
+	cursor: pointer;
+	color: red;
+	margin: 16px;
+	right: 0;
+	bottom: 4px;
+}
+
+.eachItem {
+	border-radius: 6px;
+	position: relative;
+	padding: 0 16px;
+	width: 300px;
+	display: flex;
+	background-color: #fff;
+	margin: 16px;
+}
+
+.eachItem h3 {
+	font-size: 16px;
+	font-weight: normal;
+	vertical-align: center;
+	padding: 0;
+}
